@@ -2,13 +2,17 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
+import { StaticImage } from 'gatsby-plugin-image'
 // Stap 2: definieer je component
 const IndexPage = () => {
   return (
     <main>
-       <Layout pageTitle="English queens from 1450 till 1550">
+       <Layout pageTitle="Home">
        <p>Lorem ipsum</p>
-       
+       <StaticImage
+        alt="randomized unsplash image!"
+        src="https://source.unsplash.com/random/800x600"
+      />
        </Layout>     
     </main>
   )
