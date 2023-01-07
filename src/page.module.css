@@ -50,6 +50,22 @@
   align-items: center;
 }
 
+.imageAboutContainer
+{
+  width: 50%;
+}
+
+.aboutImages{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  display: block;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  object-fit: scale-down;
+}
+
 .portraitQueensOfHenry
 {
   margin-top: 50px;

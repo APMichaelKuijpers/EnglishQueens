@@ -5,7 +5,7 @@ import { graphql } from "gatsby"
 import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
-import Queen from "../components/queenHome.js"
+import Queen from "../components/queenHome"
 import { 
   homeContainerUpperFull,
   homeContainerUpper,

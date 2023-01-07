@@ -9,8 +9,6 @@ import {
   rosesContainter,
   rose,
   containerUpper,
-  imageContainer,
-  portraitQueensOfHenry,
   homeContainerLower,
   containerLowerInfo,
   containerQueens,
