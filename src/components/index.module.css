@@ -1,54 +1,88 @@
-.list {
-  display: grid;
-  margin: 0;
-  /* https://css-tricks.com/responsive-layouts-fewer-media-queries/ */
-  --w: 280px;
-  --n: 2;
-  gap: var(--size-gap);
-  grid-template-columns: repeat(
-    auto-fit,
-    minmax(max(var(--w), 100%/ (var(--n) + 1) + 0.1%), 1fr)
-  );
-  margin-bottom: var(--size-gap);
-  margin-top: var(--size-gap);
+@font-face {
+  src: url(../../fonts/BOERT___.ttf);
+  font-family: Tudor;
 }
 
-.listItem {
-  margin: 0;
+.queenContainers
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 50px;
+  margin-left: 50px;
+  /* align-items: center; */
 }
 
-.listItem::marker {
-  color: #e95800;
+.queenColumn {
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 40%;
+  margin: 20px;
+  /* border: 2px palevioletred solid;  */
+  box-shadow: 0 4px 8px 9 deeppink;
+  transition: 0.3s;
+ 
 }
 
-.listItem:nth-child(2)::marker {
-  color: #159bf3;
+
+
+.infoContainer
+{
+  padding-left: 35px;
+}
+.pageTitle{
+  font-family: Tudor;
+  font-size: 40px;
+  font-weight: normal;
+}
+.portraitContainer
+{
+  align-items: center;
+}
+.portraitQueen:hover{
+  filter: grayscale(100%);
 }
 
-.listItem:nth-child(3)::marker {
-  color: #8eb814;
+.portraitQueen{
+  height: 450px;
+  width: 300px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.listItem:nth-child(4)::marker {
-  color: #663399;
+.portrayalContainer
+{
+  width: 110%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+
+}
+.imagePortrayal{
+  margin-top: px;
+  height: 500px;
+  width: 250px;
+  object-fit: cover;  
 }
 
-.listItemLink {
-  color: var(--color-primary);
-  font-weight: bold;
+
+
+p{
+  font-family: 'Times New Roman', Times, serif
 }
 
-.listItemDescription {
-  color: var(--color-text);
-  margin-bottom: 0;
-  margin-top: var(--space-1);
+
+.bioContainer
+{
+  width: 100%;
 }
 
-.textCenter {
-  text-align: center;
-}
 
-.intro {
-  max-width: none;
-  line-height: var(--line-height-loose);
-}
+/* .card{
+  
+  transition: 0.3s;
+  padding: 20px;
+  margin: 20px;
+} */

@@ -1,0 +1,41 @@
+.wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 18vw;
+    height: 25vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+
+.wrapper :hover .queenImage
+  {
+    filter: grayscale(100%);
+  }
+.wrapper:hover .queenInfo {
+    bottom: 0;
+    opacity: 1;
+  }
+
+.queenImage {
+    width: 18vw;
+    height: 25vw;
+    object-fit: contain;
+  }
+.queenInfo {
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    opacity: 0;
+    transition: all 0.5s ease;
+  }
+.queenName {
+    font-size: 1.3rem;
+  }
+

@@ -1,0 +1,90 @@
+@font-face {
+  src: url(./fonts/BOERT___.ttf);
+  font-family: Tudor;
+}
+
+.containerUpperFull{
+  border-bottom: double rgb(234, 196, 139) 15px;
+  text-align: center;
+}
+.containerUpper{
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+
+.rosesContainter{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rose{
+  height: 100px;
+  width: 300px;
+}
+
+
+.homeContainerUpper{
+  position: relative;
+  display: flex;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+.infoContainer
+{
+  padding-left: 35px;
+  width: 50%;
+}
+.pageTitle{
+  font-family: Tudor;
+  font-size: 2rem;
+  font-weight: normal;
+}
+.imageContainer
+{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portraitQueensOfHenry
+{
+  margin-top: 50px;
+  border: solid white 3px;
+  object-fit: scale-down;
+}
+
+
+.homeContainerLower
+{
+  border-top: double black 15px;
+  background-color:rgb(234, 196, 139);
+  color:#000;
+  padding-bottom: 15px;
+}
+  
+.containerLowerInfo
+{
+  text-align: center;
+  padding-top: 30px;
+}
+
+.containerLowerInfo hr{
+  border: solid black 0.2px;
+  width: 70%;
+}
+
+.containerQueens{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+/* gap: 30px 40px; */
+
