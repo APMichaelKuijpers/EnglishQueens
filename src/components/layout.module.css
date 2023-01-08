@@ -1,108 +1,134 @@
+@font-face {
+  src: url(./../fonts/BOERT___.ttf);
+  font-family: Tudor;
+}
+
 html {
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    font: 112.5%/1.45em sans-serif, georgia, serif;
-    box-sizing: border-box;
-    overflow-y: scroll;
-    background-color: black;
-  }
-  body {
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+
+body {
+    width: 100%;
     overflow: hidden;
     margin: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: white;
-    font-family: sans-serif, georgia, serif;
-    font-weight: normal;
-    word-wrap: break-word;
-    font-kerning: normal;
-    -moz-font-feature-settings: "kern", "liga", "clig", "calt";
-    -ms-font-feature-settings: "kern", "liga", "clig", "calt";
-    -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
-    font-feature-settings: "kern", "liga", "clig", "calt";
-  }
- 
-  .container {
-    width: 100%;
-    max-width: 1920px;
-    margin: auto;
-    font-family: sans-serif;
-  }
+}
   
+p, label, input{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.1rem;
+}
+
+
+a{
+  text-decoration: none;
+  color:rgb(234, 196, 139);
+  font-size: 1.1rem;
+  transition: color 0.2s ease;
+}
+
+
+form{
+  display: grid;
+  grid-template-columns: 150px 0.8fr;
+}
+label {
+  color: black;
+  font-size: 1.2rem;
+}
+input, textarea{
+  background-color:black;
+  font-family: 'Times New Roman', Times, serif;
+  padding:10px;
+  width: 80vh;
+  margin-bottom: 10px;
+  border: solid 2px white;
+  font-size: 1.1rem;
+  color:rgb(234, 196, 139);
+}
+
+button{
+  margin-top: 10px;
+  grid-column: 1/ span 2;
+  background-color: black;
+  color: rgb(234, 196, 139);
+  border: solid 2px white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+}
+ 
+
+
+
   .nav {
-    padding-left: 7%;
-    padding-right: 7%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: row;
+    background-color: rgb(234, 196, 139);
+    margin-bottom: 20px;
+    border-bottom: double black 15px;
   }
+  
   
   .nav-links {
     display: flex;
     align-items: center;
-    height: 90px;
     padding: 0;
     margin: 0;
     list-style: none;
   }
   
-  .nav-link-item {
-    padding-right: 2rem;
-  }
+
   
   .nav-link-text {
-    color: white;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 600;
+    color: black;
+    font-size: 1.5em;
     transition: color 0.2s ease;
   }
   
   .nav-link-text:hover {
-    color: #37ba83;
+    text-decoration: underline;
+    color: #d24242;
+    font-weight: bold;
   }
 
 
-p {
-  font-size: 1.1rem;
-  font-family: 'Times New Roman', Times, serif
+.siteTitleNav {
+    font-family: Tudor;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: auto;
+    display: flex;
+  }
+  
+.roseTudor, .roseLancaster, .roseYork{
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 50px;
+  width: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.roseTudor{
+  background-image: url("../images/RoseTU.png");
+}
+.roseLancaster{
+  background-image: url("../images/RoseLA.png");
+}
+.roseYork{
+  background-image: url("../images/RoseYO.png");
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-  
-
-  .site-title {
-    position: relative;
-    display: flex;
-    align-items: center;
-    height: 90px;
-    flex-shrink: 0;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin-right: auto;
-  }
-  
-  .site-title::after {
-    content:'.';
-    position: absolute;
-    right: -5px;
-    bottom: 35px;
-    font-size: 2rem;
-    font-family: serif;
-    color: #37BA83;
-    margin-right: auto;
-  }
   
   .nav-link-item {
     padding-left: 2rem;

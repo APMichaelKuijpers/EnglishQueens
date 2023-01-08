@@ -11,6 +11,8 @@
   flex-wrap: wrap;
   padding-left: 40px;
   padding-right: 40px;
+  padding-bottom: 15px;
+  border-bottom: double rgb(234, 196, 139) 15px;
 }
 
 .infoContainer
@@ -67,71 +69,19 @@
   text-decoration:underline;
 }
 
-/*
-@font-face {
-  src: url(../../fonts/BOERT___.ttf);
-  font-family: Tudor;
-}
 
-.queenContainers
+
+.containerLower
 {
-  display: flex;
-  flex-wrap: wrap;
-  /* align-items: center; 
+  border-top: double black 15px;
+  background-color:rgb(234, 196, 139);
+  color:#000;
+  padding-bottom: 15px;
+  width: 100%;
 }
 
-.queenColumn {
-  padding-left: 40px;
-  padding-right: 40px;
-  width: 40%;
-  margin: 15px;
-}
-
-.infoContainer
-{
-  text-align: right;
-  /* padding-left: 35px; 
-  min-height: 500px;
-}
-.queenname{
+.sectionTitle{
   font-family: Tudor;
-  font-size: 40px;
+  font-size: 1.5rem;
   font-weight: normal;
 }
-.portraitContainer
-{
-  align-items: center;
-}
-.portraitQueen:hover{
-  filter: grayscale(100%);
-}
-
-.portraitQueen{
-  margin-top: 35px;
-  height: 450px;
-  width: 300px;
-  object-fit: cover;
-  display: block;
-  /* margin-left: auto; 
-  margin-right: auto;
-}
-
-
-.portrayalContainer
-{
-  /* width: 110%; 
-  display: flex;
-  flex-wrap: wrap;
-  /* justify-content: center; 
-  justify-content: end;
-  gap: 40px;
-
-}
-.imagePortrayal{
-  margin-top: 25px;
-  height: 600px;
-  width: 250px;
-  object-fit: cover;  
-}
-
-*/

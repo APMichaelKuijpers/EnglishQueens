@@ -18,12 +18,8 @@
   width: 40%;
   margin: 20px;
   /* border: 2px palevioletred solid;  */
-  box-shadow: 0 4px 8px 9 deeppink;
   transition: 0.3s;
- 
 }
-
-
 
 .infoContainer
 {
@@ -31,7 +27,7 @@
 }
 .pageTitle{
   font-family: Tudor;
-  font-size: 40px;
+  font-size: 2rem;
   font-weight: normal;
 }
 .portraitContainer
@@ -67,22 +63,7 @@
   object-fit: cover;  
 }
 
-
-
-p{
-  font-family: 'Times New Roman', Times, serif
-}
-
-
 .bioContainer
 {
   width: 100%;
 }
-
-
-/* .card{
-  
-  transition: 0.3s;
-  padding: 20px;
-  margin: 20px;
-} */

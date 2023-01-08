@@ -7,7 +7,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import Queen from "../components/queenHome"
 import { 
-  homeContainerUpperFull,
+  containerUpperFull,
   homeContainerUpper,
   infoContainer,
   pageTitle,
@@ -16,6 +16,7 @@ import {
   homeContainerLower,
   containerLowerInfo,
   containerQueens,
+  sectionTitle,
 } from '../page.module.css'
 // Stap 2: definieer je component
 const IndexPage = ({
@@ -28,7 +29,7 @@ const IndexPage = ({
   return (
     <main>
       <Layout>
-      <section className={homeContainerUpperFull}>
+      <section className={containerUpperFull}>
         <section className={homeContainerUpper}>
         <section className={infoContainer}>
           <h1 className={pageTitle}>{homeFields.title}</h1>
@@ -51,7 +52,7 @@ const IndexPage = ({
 
       <section className={homeContainerLower}>
           <section className={containerLowerInfo}>
-              <h2 className={pageTitle}>Important queens to look at:</h2>
+              <h1 className={sectionTitle}>Important queens to look at:</h1>
               <hr/>
               <p> Some of the queens with the most influence on English history, but far from the only interesting once.  </p>
           </section>

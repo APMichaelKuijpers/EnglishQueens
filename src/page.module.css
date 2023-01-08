@@ -38,12 +38,14 @@
   width: 50%;
 }
 .pageTitle{
+  color:rgb(234, 196, 139) ;
   font-family: Tudor;
   font-size: 2rem;
   font-weight: normal;
 }
 .imageContainer
 {
+  margin-left: 30px;
   width: 50%;
   display: flex;
   justify-content: center;
@@ -56,8 +58,8 @@
 }
 
 .aboutImages{
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 30px;
+  margin-bottom: 30px;
   display: block;
   align-self: center;
   margin-left: auto;
@@ -81,6 +83,16 @@
   color:#000;
   padding-bottom: 15px;
 }
+
+
+.containerLower
+{
+  border-top: double black 15px;
+  background-color:rgb(234, 196, 139);
+  color:#000;
+  padding-bottom: 15px;
+  width: 100%;
+}
   
 .containerLowerInfo
 {
@@ -99,8 +111,16 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  
 }
 
-/* gap: 30px 40px; */
+.formContact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.sectionTitle{
+  font-family: Tudor;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
