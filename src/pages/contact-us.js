@@ -50,19 +50,23 @@ const ContactPage = ({
         </section>
       </section>
       <section className={containerLower}>
-          {/* <section className={formContact}>
+          <section className={formContact}>
               <h1 className={sectionTitle}>Send us a message</h1>
               <form name="contact" method="POST" data-netlify="true">
-                <label>Your Name:</label>
-                  <input type="text" name="name" required={true} />
+                <label>First Name:</label>
+                  <input type="text" name="first-name" required={true} />
+                <label>Last Name:</label>
+                  <input type="text" name="last-name" required={true} />
                 <label>Your Email:</label>
                   <input type="email" name="email" required={true} />
+                <label>Subject:</label>
+                  <input type="text" name="subject" required={true} />
                 <label>Message:</label>
                   <textarea name="message" required={true}></textarea>
               <input type="hidden" name="form-name" value="contact" />
                   <button type="submit">Send</button>
           </form>
-        </section> */}
+        </section>
       </section>
     
     </Layout>
