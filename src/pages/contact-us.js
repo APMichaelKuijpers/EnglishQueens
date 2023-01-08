@@ -50,7 +50,7 @@ const ContactPage = ({
         </section>
       </section>
       <section className={containerLower}>
-          <section className={formContact}>
+          {/* <section className={formContact}>
               <h1 className={sectionTitle}>Send us a message</h1>
               <form name="contact" method="POST" data-netlify="true">
                 <label>Your Name:</label>
@@ -62,7 +62,7 @@ const ContactPage = ({
               <input type="hidden" name="form-name" value="contact" />
                   <button type="submit">Send</button>
           </form>
-        </section>
+        </section> */}
       </section>
     
     </Layout>
